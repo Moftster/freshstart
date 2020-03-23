@@ -49,7 +49,7 @@
                         </li>
                         <li class="nav-item">
                         <li class="nav-item">
-                            <a class="nav-link" href="/events">Events</a>
+                            <a class="nav-link" href="/people">People</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/contact">Contact</a>

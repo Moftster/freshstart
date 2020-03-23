@@ -19,5 +19,7 @@ Route::get('/', function () {
 
 Route::view('clients', 'clients');
 
+Route::view('people', 'people');
+
 Auth::routes(['register' => false]);
 
