@@ -72,6 +72,7 @@ a {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+  border-radius: 5px;
 }
 
 .showcase-content img {
