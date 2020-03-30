@@ -158,22 +158,27 @@ a {
   border-radius: 5px;
   padding: 8px 20px;
   margin: 3px;
+  border: 2px solid #0078D4;
+  font-size: 15px;
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 .btn-secondary:hover,
 .btn-primary:hover {
   transform: scale(0.98);
+  cursor: pointer;
 }
 
 .btn-primary {
-  background-color: #418bff;
+  color: white;
+  background-color: #0078D4;
   color: #fff;
 }
 
 .btn-secondary {
-  background-color: #ff8700;
-  background-color: #ff8700;
-  color: #fff;
+  color: #0078D4;
+  background-color: white;
 }
 
 @media (max-width: 700px) {

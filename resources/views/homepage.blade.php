@@ -34,6 +34,9 @@
               </p>
               <a href="#" class="btn-primary">Learn More</a>
               <a href="#" class="btn-secondary">Sign Up</a>
+              <button class="btn-primary">Sign up now</button>
+              <button class="btn-secondary">Find out more</button>
+  
           </div>
           <img
               src="https://themesbrand.com/zooki/layouts/images/home-2-img.png"

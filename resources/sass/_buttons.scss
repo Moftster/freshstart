@@ -1,22 +1,29 @@
+$btn-primary-color: #0078D4;
+
 %btn{
     display: inline-block;
     border-radius: 5px;
     padding: 8px 20px;
     margin: 3px;
-
+    border: 2px solid #0078D4;
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
     &:hover{
         transform: scale(.98);
+        cursor: pointer;
     }
 }
 
 .btn-primary{
     @extend %btn;
-    @include set-background(lighten($primary-color, 10%));
+    color: white;
+    @include set-background($btn-primary-color);
 }
 
 .btn-secondary{
     @extend %btn;
-    background-color: $secondary-color;
-    @include set-background($secondary-color);
+    color: $btn-primary-color;
+    background-color: white;
 
 }
