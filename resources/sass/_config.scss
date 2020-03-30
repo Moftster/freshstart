@@ -8,7 +8,7 @@ $secondary-color: #ff8700;
 
 @function set-text-color($color){
     @if(lightness($color) > 70) {
-        @return #333;
+        @return #fff;
     } @else {
         @return #fff;
     }

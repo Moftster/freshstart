@@ -10,10 +10,6 @@ body {
   line-height: 1.6;
 }
 
-img {
-  width: 100%;
-}
-
 a {
   text-decoration: none;
 }
@@ -67,6 +63,11 @@ a {
 .showcase-content h1 {
   font-size: 50px;
   line-height: 1.2;
+  color: #fff;
+}
+
+.showcase-content p {
+  color: #fff;
 }
 
 .container {
