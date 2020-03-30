@@ -29,9 +29,9 @@ a{
 
 .showcase{
     @include set-background($primary-color);
-    height: 600px;
 
     nav {
+        height: 80px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -56,6 +56,7 @@ a{
     }
 
     &-content{
+        height: 600px;
         height: 100%;
         display: flex;
         align-items: center;

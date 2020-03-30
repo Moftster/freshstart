@@ -21,74 +21,65 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-primary shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="{{asset('icons/Chillalogo4.png')}}" width="50" height="50" class="d-inline-block align-top" alt="">
-                    <div class="d-inline-block align-middle header-font">FreshStart Psychotherapy</div> 
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <header class="showcase">
+        <div class="container">
+        <nav>
+            <h1 class="logo">FreshStart Psychotherapy</h1>
+ 
+            <ul class="navbar-nav ml-auto">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/fees">Fees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/clients">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/therapists">Therapists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/people">People</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact</a>
+                    </li>
 
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-
+                    <!-- Authentication Links -->
+                    @guest
                         <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
+                            <a class="nav-link d-none" href="{{ route('login') }}">{{ __('Login') }}</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/fees">Fees</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/clients">Clients</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/therapists">Therapists</a>
-                        </li>
-                        <li class="nav-item">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/people">People</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact">Contact</a>
-                        </li>
-
-                        <!-- Authentication Links -->
-                        @guest
+                        @if (Route::has('register'))
                             <li class="nav-item">
-                                <a class="nav-link d-none" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                             </li>
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
+                        @endif
+                    @else
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                {{ Auth::user()->name }} <span class="caret"></span>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                                 document.getElementById('logout-form').submit();">
+                                    {{ __('Logout') }}
                                 </a>
 
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                        @endguest
-                    </ul>
-                </div>
-            </div>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
+                            </div>
+                        </li>
+                    @endguest
+                </ul>
         </nav>
+    </header>
+</div>
 
         <main class="py-4">
             @yield('content')

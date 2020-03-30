@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+{{-- <div class="container">
     <div class="jumbotron banner-text">
-        <h1 class="display-4">FreshStart Psychotherapy</h1>
+        <h1 class="display-4"></h1>
         <p class="lead">Low cost and subsidised counselling and psychotherapy.</p>
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -12,27 +12,25 @@
         </p>
       </div>
 
-</div>
+</div> --}}
 
 
-<header class="showcase">
+{{-- <header class="showcase"> --}}
   <div class="container">
-      <nav>
+      {{-- <nav>
           <h1 class="logo">FreshStart Psychotherapy</h1>
           <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Services</a></li>
           </ul>
-      </nav>
+      </nav> --}}
 
       <div class="showcase-content">
           <div>
-              <h1>Make Your Marketing Real</h1>
+              <h1>FreshStart Psychotherapy</h1>
               <p class="my-1">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-                  eligendi tempore atque laborum. Quisquam nemo at non. Corrupti,
-                  vitae dolore.
+                Low cost and subsidised counselling and psychotherapy.
               </p>
               <a href="#" class="btn-primary">Learn More</a>
               <a href="#" class="btn-secondary">Sign Up</a>
@@ -42,7 +40,7 @@
           />
       </div>
   </div>
-</header>
+{{-- </header> --}}
 
 
 
