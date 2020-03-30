@@ -48,11 +48,11 @@ a {
 }
 
 .showcase-content {
-  background-image: url("https://unsplash.it/1500?random");
+  background-image: url(/images/field.jpg?3c9b298cfe5cae831ac66f71ee25d546);
   background-size: cover;
   background-position: center;
   width: 100wh;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: left;

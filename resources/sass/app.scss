@@ -56,11 +56,12 @@ a{
     }
 
     &-content{
-        background-image: url('https://unsplash.it/1500?random');
+        background-image: url("../img/field.jpg") ;
+        // background-image: url('https://unsplash.it/1500?random');
         background-size: cover;
         background-position: center;
         width: 100wh;
-        height: 100vh;
+        height: 50vh;
         // height: 600px;
         // height: 100%;
         display: flex;
