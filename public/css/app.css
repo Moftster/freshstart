@@ -48,16 +48,19 @@ a {
 }
 
 .showcase-content {
-  height: 600px;
-  height: 100%;
+  background-image: url("https://unsplash.it/1500?random");
+  background-size: cover;
+  background-position: center;
+  width: 100wh;
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 30px;
+  justify-content: left;
 }
 
 .showcase-content img {
   width: 50%;
+  display: none;
 }
 
 .showcase-content h1 {

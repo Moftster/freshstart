@@ -58,22 +58,25 @@ a {
 }
 
 .showcase-content {
-  height: 600px;
-  height: 100%;
+  background-image: url("https://unsplash.it/1500?random");
+  background-size: cover;
+  background-position: center;
+  width: 100wh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 30px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .showcase-content img {
   width: 50%;
+  display: none;
 }
 
 .showcase-content h1 {

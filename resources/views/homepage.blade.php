@@ -27,21 +27,26 @@
       </nav> --}}
 
       <div class="showcase-content">
-          <div>
+          <div class="p-5">
               <h1>FreshStart Psychotherapy</h1>
               <p class="my-1">
                 Low cost and subsidised counselling and psychotherapy.
               </p>
               <a href="#" class="btn-primary">Learn More</a>
               <a href="#" class="btn-secondary">Sign Up</a>
-              <button class="btn-primary">Sign up now</button>
-              <button class="btn-secondary">Find out more</button>
   
           </div>
-          <img
-              src="https://themesbrand.com/zooki/layouts/images/home-2-img.png"
-          />
+
       </div>
+      
+      {{-- <header class="hero">
+        <div class="center-content">
+          <h1>An Article Title</h1>
+          <h3>A longer subtitle but still important</h3>
+          <a href="#" class="button">Some Action Here</a>
+        </div>
+      </header> --}}
+
   </div>
 {{-- </header> --}}
 
