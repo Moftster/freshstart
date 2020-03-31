@@ -44,7 +44,6 @@ a {
 }
 
 .showcase-content {
-  background-image: url(/images/field.jpg?3c9b298cfe5cae831ac66f71ee25d546);
   background-size: cover;
   background-position: center;
   width: 100wh;
@@ -63,11 +62,11 @@ a {
 .showcase-content h1 {
   font-size: 50px;
   line-height: 1.2;
-  color: #fff;
+  color: #333;
 }
 
 .showcase-content p {
-  color: #fff;
+  color: #333;
   font-size: 18px;
 }
 

@@ -53,7 +53,7 @@ a{
     }
 
     &-content{
-        background-image: url("../img/field.jpg") ;
+        // background-image: url("../img/field.jpg") ;
         background-size: cover;
         background-position: center;
         width: 100wh;
@@ -73,11 +73,11 @@ a{
         h1{
             font-size: 50px;
             line-height: 1.2;
-            color: #fff;
+            color: #333;
         }
 
         p{
-            color: #fff;
+            color: #333;
             font-size: 18px;
             
         }
