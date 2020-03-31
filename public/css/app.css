@@ -44,19 +44,20 @@ a {
 }
 
 .showcase-content {
+  background-color: white;
   background-size: cover;
   background-position: center;
   width: 100wh;
   height: 50vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: left;
   border-radius: 5px;
 }
 
 .showcase-content img {
-  width: 50%;
-  display: none;
+  width: 70%;
 }
 
 .container {
@@ -182,10 +183,6 @@ a {
 
   .showcase-content {
     text-align: center;
-  }
-
-  .showcase-content img {
-    display: none;
   }
 }
 
