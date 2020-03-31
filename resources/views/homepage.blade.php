@@ -7,14 +7,13 @@
 
       <div class="showcase-content">
           <div class="p-5">
-              <h1 class="hero-text">FreshStart Psychotherapy</h1>
-              <p class="my-1 hero-text">
-                Low cost and subsidised counselling and psychotherapy.
-              </p>
+            <img src="{{ asset('img/logo.jpg') }}" alt="">
               <a href="#" class="btn-primary">Learn More</a>
               <a href="#" class="btn-secondary">Sign Up</a>
-  
           </div>
+
+          <img src="{{ asset('img/logo.jpg') }}" alt="">
+
 
       </div>
       
