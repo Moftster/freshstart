@@ -19,7 +19,7 @@
       </div>
 
 
-    <div class='overview'>
+    <div class="overview showcase-content">
       <div class='row'>
           <div class='column-1 p-3'>
             <h1>WHAT WE DO</h1>
