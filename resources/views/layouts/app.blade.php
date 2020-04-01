@@ -86,6 +86,48 @@
         <main class="py-2">
             @yield('content')
         </main>
+        
+@section('footer')
+<footer class="footer ">
+    <div class="container">
+
+        <div class="row d-flex justify-content-center">
+            <a href="https://www.instagram.com/chillaweb/"><img class="social-icon" src="{{ asset('icons/insta.png') }}" alt="Instagram logo"></a>
+            <a href="https://twitter.com/ChillaWeb"><img class="social-icon" src="{{ asset('icons/twitter.png') }}" alt="Twitter logo"></a>
+            <a href="https://www.youtube.com/channel/UCYlZTdMURVPbf60rtldAX7g?view_as=subscriber"><img class="social-icon" src="{{ asset('icons/youtube.png') }}" alt="YouTube logo"></a>
+            <a href="/privacyandcookies"><img class="social-icon" src="{{ asset('icons/privacy.png') }}" alt="Privacy icon"></a>
+
+        </div>
+
+        <nav class="navbar navbar-expand-md navbar- justify-content-center">
+
+            <div class="row">            
+                <ul class="navbar-nav text-center">
+                    {{-- <li class="nav-item">
+                        <a class="nav-link text-secondary" href="/services">Services</a>
+                    </li>                         --}}
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="/portfolio">Portfolio</a>
+                    </li>                                         
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="/blog">Blog</a>
+                    </li>       
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="/contact">Contact</a>
+                    </li>                        
+
+                </ul>
+            </div>
+
+        </nav>
+
     </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
+@show
 </body>
 </html>
