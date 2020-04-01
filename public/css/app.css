@@ -91,6 +91,57 @@ a {
   text-align: center;
 }
 
+.homepage-tree {
+  width: 50%;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 550px 550px;
+  grid-template-rows: [row] auto [row] auto;
+  background-color: #fff;
+  color: #444;
+  place-items: center center;
+}
+
+.wrapper .box {
+  color: #333;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 1rem;
+}
+
+.wrapper p {
+  padding-top: 1rem;
+  color: #333;
+}
+
+.wrapper h1 {
+  color: #333;
+}
+
+.wrapper .a {
+  grid-column: span 1;
+  grid-row: row;
+}
+
+.wrapper .b {
+  grid-column: span 1;
+  grid-row: row;
+  text-align: center;
+}
+
+.wrapper .c {
+  grid-column: span 2;
+  grid-row: row 2;
+}
+
+.wrapper .homepage-tree {
+  width: 80%;
+  align-items: center;
+}
+
 .container {
   max-width: 1100px;
   padding: 0 30px;
