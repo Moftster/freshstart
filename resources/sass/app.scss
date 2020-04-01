@@ -98,6 +98,10 @@ a{
     // background-color: blue;
 }
 
+.button-padding{
+    padding-top: 2rem;
+}
+
 // .overview{
 //     display: flex;
 //     color: #333;
@@ -117,9 +121,13 @@ a{
     margin: 15px;
     // background-color: red;
 
+    h1{
+        color: #333;
+    }
+
     p{
         color:#333;
-        padding-top: 2rem;
+        padding-top: 1rem;
         text-align: justify;
     }
 

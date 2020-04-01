@@ -68,13 +68,21 @@ a {
   justify-content: center;
 }
 
+.button-padding {
+  padding-top: 2rem;
+}
+
 .overview {
   margin: 15px;
 }
 
+.overview h1 {
+  color: #333;
+}
+
 .overview p {
   color: #333;
-  padding-top: 2rem;
+  padding-top: 1rem;
   text-align: justify;
 }
 

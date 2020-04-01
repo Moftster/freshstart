@@ -10,7 +10,7 @@
           <div class="center-items">
             <img src="{{ asset('img/logo.jpg') }}" alt="">
           </div>
-          <div class="p-2 center-items">
+          <div class="button-padding center-items">
               <a href="#" class="btn-primary">Contact Us</a>
               <a href="#" class="btn-secondary">Learn More</a>
           </div>
@@ -21,7 +21,7 @@
 
     <div class="overview showcase-content">
       <div class='row'>
-          <div class='column-1 p-3'>
+          <div class='p-1'>
             <h1>WHAT WE DO</h1>
             <p>FreshStart Psychotherapy (FS) provides a unique service to clients and psychotherapists. For clients we ensure that low cost psychotherapy or counselling is provided for the time period required by the client and not the therapist. The therapist has an opportunity to gain valuable experience of working with clients who require long term or open ended psychotherapy but cannot access it because it is either not available from the NHS or other bodies or the client cannot afford it.</p>
             <p>Issues that can be addressed in therapy include:  depression, anxiety, anger and anger management, addictions, alcohol issues, sexual or sexual orientation issues,  bereavement and low self-esteem. </p>
