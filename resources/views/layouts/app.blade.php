@@ -24,7 +24,9 @@
         <header class="showcase">
         <div class="container">
         <nav>
-            <h1 class="logo">FreshStart Psychotherapy</h1>
+            <img href="/" class="logo-image" src="{{ asset('img/logo-ochre-sm.jpg') }}" alt="">
+
+            {{-- <h1 class="logo">FreshStart Psychotherapy</h1> --}}
  
             <ul class="navbar-nav ml-auto">
 
@@ -81,7 +83,7 @@
     </header>
 </div>
 
-        <main class="py-4">
+        <main class="py-2">
             @yield('content')
         </main>
     </div>

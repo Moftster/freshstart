@@ -14,7 +14,7 @@
 }
 
 body{
-    background-color: $light-color;
+    // background-color: $light-color;
     font-family: $font-stack;
     line-height: 1.6;
 }
@@ -25,13 +25,19 @@ a{
 }
 
 .showcase{
-    @include set-background($primary-color);
+    // @include set-background($primary-color);
+    background-color: #F9B161;
+
 
     nav {
         height: 80px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        img{
+            height: 80%;
+        }
 
         ul{
             display: flex;
@@ -45,6 +51,7 @@ a{
 
         a{
             color: set-text-color($primary-color);
+            font-weight: 600;
         }
 
         a:hover{
@@ -67,12 +74,63 @@ a{
 
         img{
             width: 70%;
+   
+            
+            
             // text-shadow: 2px 2px;
 
         }
 
+        // a{
+        //     align-items: center;
+        //     justify-content: center;
+        // }
+
     }
+
+
 }
+
+.center-items{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    // background-color: blue;
+}
+
+// .overview{
+//     display: flex;
+//     color: #333;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     width: 100%;
+// }
+
+// .overview-column{
+//     display: flex;
+//     flex-direction: column;
+//     flex-basis: 100%;
+//     flex: 1;
+// }
+
+.overview {
+    margin: 15px;
+    // background-color: red;
+
+    p{
+        color:#333;
+        padding-top: 2rem;
+        text-align: justify;
+    }
+
+    a{
+        margin-top: 2rem;
+        text-align: center;
+    }
+  }
+
+
+
 
 //HERO IMAGE
 
