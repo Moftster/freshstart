@@ -208,6 +208,18 @@ a{
     text-align: center;
 }
 
+// FOOTER
+.footer{
+background-color: #f5f5f5;
+padding: 2em;
+}
+
+
+.social-icon{
+    height: 40px;
+    margin: 1em;
+  }
+
 
 @import 'utilities';
 @import 'buttons';
