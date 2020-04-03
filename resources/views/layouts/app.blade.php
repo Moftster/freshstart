@@ -88,21 +88,21 @@
         </main>
         
 @section('footer')
-<footer class="footer ">
-    <div class="container">
+<footer class="footer">
+    <div class="container footer-container">
 
-            <div class="">            
-                <p>FreshStart Psychotherapy</p>
+            <div class="footer-1">            
+                <p><strong>FreshStart Psychotherapy</strong></p>
                 <p>020 7691 7638</p>
                 <p><a href="mailto:enquiries@freshstartpsychotherapy.co.uk">enquiries@freshstartpsychotherapy.co.uk</a></p>  
             </div>
 
-            <div class="">
+            <div class="footer-2">
                 <a href="/privacyandcookies"><img class="social-icon" src="{{ asset('img/privacy.png') }}" alt="Privacy icon"></a>
             </div>
 
-            <div class="">
-                <p>Designed by ChillaWeb</p>
+            <div class="footer-2">
+                <p>Designed and developed by <a href="https://chillaweb.com/">ChillaWeb</a></p>
             </div>
 
 
