@@ -285,5 +285,35 @@ a {
   .showcase-content {
     text-align: center;
   }
+
+  .bars {
+    background: #999;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    width: 18px;
+  }
+
+  .bars::before,
+  .bars::after {
+    background: #999;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    width: 18px;
+  }
+
+  .bars::before {
+    top: 5px;
+  }
+
+  .bars::after {
+    top: -5px;
+  }
+
+  .item {
+    display: none;
+  }
 }
 

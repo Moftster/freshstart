@@ -28,34 +28,34 @@
 
             {{-- <h1 class="logo">FreshStart Psychotherapy</h1> --}}
  
-            <ul class="">
+            <ul class="menu">
 
-                    <li class="">
+                    <li class="item">
                         <a class="" href="/about">About</a>
                     </li>
-                    <li class="">
+                    <li class="item">
                         <a class="" href="/fees">Fees</a>
                     </li>
-                    <li class="">
+                    <li class="item">
                         <a class="" href="/clients">Clients</a>
                     </li>
-                    <li class="">
+                    <li class="item">
                         <a class="" href="/therapists">Therapists</a>
                     </li>
-                    <li class="">
+                    <li class="item">
                         <a class="" href="/people">People</a>
                     </li>
-                    <li class="">
+                    <li class="item">
                         <a class="" href="/contact">Contact</a>
                     </li>
 
                     <!-- Authentication Links -->
                     @guest
-                        <li class="nav-item">
+                        <li class="item">
                             <a class="nav-link d-none" href="{{ route('login') }}">{{ __('Login') }}</a>
                         </li>
                         @if (Route::has('register'))
-                            <li class="nav-item">
+                            <li class="item">
                                 <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                             </li>
                         @endif
@@ -78,6 +78,9 @@
                             </div>
                         </li>
                     @endguest
+                    <li class="toggle">
+                        <span class="bars"></span>
+                      </li>
                 </ul>
         </nav>
     </header>
