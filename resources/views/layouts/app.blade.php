@@ -28,25 +28,25 @@
 
             {{-- <h1 class="logo">FreshStart Psychotherapy</h1> --}}
  
-            <ul class="navbar-nav ml-auto">
+            <ul class="">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
+                    <li class="">
+                        <a class="" href="/about">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/fees">Fees</a>
+                    <li class="">
+                        <a class="" href="/fees">Fees</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/clients">Clients</a>
+                    <li class="">
+                        <a class="" href="/clients">Clients</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/therapists">Therapists</a>
+                    <li class="">
+                        <a class="" href="/therapists">Therapists</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/people">People</a>
+                    <li class="">
+                        <a class="" href="/people">People</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact">Contact</a>
+                    <li class="">
+                        <a class="" href="/contact">Contact</a>
                     </li>
 
                     <!-- Authentication Links -->
