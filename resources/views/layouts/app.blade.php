@@ -94,17 +94,17 @@
 <footer class="footer">
     <div class="container footer-container">
 
-            <div class="footer-1">            
+            <div class="footer-content">            
                 <p><strong>FreshStart Psychotherapy</strong></p>
                 <p>020 7691 7638</p>
                 <p><a href="mailto:enquiries@freshstartpsychotherapy.co.uk">enquiries@freshstartpsychotherapy.co.uk</a></p>  
             </div>
 
-            <div class="footer-2">
+            <div class="footer-content">
                 <a href="/privacyandcookies"><img class="social-icon" src="{{ asset('img/privacy.png') }}" alt="Privacy icon"></a>
             </div>
 
-            <div class="footer-2">
+            <div class="footer-content">
                 <p>Designed and developed by <a href="https://chillaweb.com/">ChillaWeb</a></p>
             </div>
 

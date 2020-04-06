@@ -40,4 +40,14 @@
         display: none;
     }
 
+    .footer-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center center;
+      }
+
+      .footer-content{
+          text-align: center;
+      }
+
 }

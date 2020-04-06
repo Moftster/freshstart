@@ -214,7 +214,7 @@ padding: 1em;
 
 .footer-container {
     display: grid;
-    grid-template-columns: 350px 350px 350px;
+    grid-template-columns: repeat(3, 1fr);
     place-items: center center;
 }
 

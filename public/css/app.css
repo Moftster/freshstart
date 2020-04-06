@@ -153,7 +153,7 @@ a {
 
 .footer-container {
   display: grid;
-  grid-template-columns: 350px 350px 350px;
+  grid-template-columns: repeat(3, 1fr);
   place-items: center center;
 }
 
@@ -314,6 +314,16 @@ a {
 
   .item {
     display: none;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center center;
+  }
+
+  .footer-content {
+    text-align: center;
   }
 }
 
