@@ -60,10 +60,7 @@
                         <a class="" href="/clients">Clients</a>
                     </li>
                     <li class="item">
-                        <a class="" href="/therapists">Therapists</a>
-                    </li>
-                    <li class="item">
-                        <a class="" href="/people">People</a>
+                        <a class="" href="/ourpeople">Our people</a>
                     </li>
                     <li class="item">
                         <a class="" href="/contact">Contact</a>
