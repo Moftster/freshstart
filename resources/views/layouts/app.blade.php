@@ -42,11 +42,13 @@
         <header class="showcase">
         <div class="container">
         <nav>
-            <img href="/" class="logo-image" src="{{ asset('img/logo-ochre-sm.jpg') }}" alt="">
 
             {{-- <h1 class="logo">FreshStart Psychotherapy</h1> --}}
  
             <ul class="menu">
+
+                <img href="/" class="logo-image" src="{{ asset('img/logo-ochre-sm.jpg') }}" alt="">
+
 
                     <li class="item">
                         <a class="" href="/about">About</a>
