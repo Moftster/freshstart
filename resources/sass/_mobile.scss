@@ -36,8 +36,22 @@
         top: -5px;
     }
 
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .item{
+        width: 100%;
+        text-align: center;
+        order: 2;
         display: none;
+    }
+
+    .item.active{
+        display: block;
     }
 
     .footer-container {
