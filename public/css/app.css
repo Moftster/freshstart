@@ -320,6 +320,16 @@ a {
     align-items: center;
   }
 
+  .nav {
+    display: block;
+  }
+
+  .toggle {
+    margin-left: 1rem;
+    align-content: right;
+    order: 1;
+  }
+
   .item {
     width: 100%;
     text-align: center;
