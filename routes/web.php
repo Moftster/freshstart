@@ -21,5 +21,7 @@ Route::view('clients', 'clients');
 
 Route::view('ourpeople', 'ourpeople');
 
+Route::view('fees', 'fees');
+
 Auth::routes(['register' => false]);
 

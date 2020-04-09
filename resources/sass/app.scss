@@ -255,6 +255,31 @@ padding: 1em;
 
 }
 
+.fees-page{
+    display: grid;
+    grid-template-columns: 5fr 3.5fr;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+
+    p{
+        // padding: 1rem 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    img{
+        max-width: 100%;
+        padding-top: 1rem;
+    }
+
+    .fees-image{
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+
+    }
+}
+
 @import 'utilities';
 @import 'buttons';
 @import 'mobile';
