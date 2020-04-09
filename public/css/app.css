@@ -170,10 +170,6 @@ a {
   grid-gap: 1rem;
 }
 
-.ourpeople .content {
-  border: 1px solid black;
-}
-
 .ourpeople .content-img {
   justify-self: center;
 }
@@ -370,6 +366,13 @@ a {
 
   .footer-content {
     text-align: center;
+  }
+
+  .ourpeople {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
   }
 }
 
