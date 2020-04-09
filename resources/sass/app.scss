@@ -225,6 +225,35 @@ padding: 1em;
     margin: 1em;
   }
 
+// Our people page
+
+.ourpeople{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    
+
+    .content{
+        border: 1px solid black;
+    }
+
+    .content-img{
+        // align-self: center;
+        justify-self: center;
+    }
+
+    h3{ 
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    // .img-itself{
+    //     justify-self: center;
+
+    // }
+
+}
 
 @import 'utilities';
 @import 'buttons';
