@@ -280,6 +280,40 @@ padding: 1em;
     }
 }
 
+.about-page{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: [col] 1fr [col] 1fr;
+    grid-template-rows: auto;
+
+    .about-banner {
+        grid-column: span 2;
+        // grid-row: row ;
+    }
+    .about-middle-text {
+        grid-column: span 2;
+        grid-row: row ;
+        // background-color: blue;
+    }
+    
+    p{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    img{
+        max-width: 100%;
+        padding-top: 1rem;
+    }
+
+    .about-image{
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+
+    }
+}
+
 @import 'utilities';
 @import 'buttons';
 @import 'mobile';

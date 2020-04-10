@@ -196,6 +196,32 @@ a {
   padding-top: 1rem;
 }
 
+.about-page {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: [col] 1fr [col] 1fr;
+  grid-template-rows: auto;
+}
+
+.about-page .about-banner {
+  grid-column: span 2;
+}
+
+.about-page .about-middle-text {
+  grid-column: span 2;
+  grid-row: row;
+}
+
+.about-page p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.about-page img {
+  max-width: 100%;
+  padding-top: 1rem;
+}
+
 .container {
   max-width: 1100px;
   padding: 0 30px;
