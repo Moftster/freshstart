@@ -207,7 +207,7 @@ a {
   grid-column: span 2;
 }
 
-.about-page .about-middle-text {
+.about-page .about-text-3 {
   grid-column: span 2;
   grid-row: row;
 }
@@ -220,6 +220,11 @@ a {
 .about-page img {
   max-width: 100%;
   padding-top: 1rem;
+}
+
+.page-header {
+  text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 .container {
@@ -432,6 +437,52 @@ a {
 
   .fees-header {
     text-align: center;
+  }
+
+  .about-page {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: [col] 1fr;
+    grid-template-rows: auto;
+  }
+
+  .about-page .about-banner {
+    grid-column: span 1;
+  }
+
+  .about-page .about-text-3 {
+    grid-column: span 1;
+    order: 4;
+  }
+
+  .about-page p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .about-page img {
+    max-width: 100%;
+    padding-top: 0.5rem;
+  }
+
+  .about-page .about-banner {
+    order: 1;
+  }
+
+  .about-page .about-text-1 {
+    order: 2;
+  }
+
+  .about-page .about-image-1 {
+    order: 3;
+  }
+
+  .about-page .about-image-2 {
+    order: 5;
+  }
+
+  .about-page .about-text-2 {
+    order: 6;
   }
 }
 

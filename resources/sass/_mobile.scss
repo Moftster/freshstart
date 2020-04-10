@@ -106,4 +106,63 @@
           text-align: center;
       }
 
+      .fees-image{
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+
+    }
+
+
+.about-page{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: [col] 1fr;
+    grid-template-rows: auto;
+
+    .about-banner {
+        grid-column: span 1;
+        // grid-row: row ;
+    }
+    .about-text-3 {
+        grid-column: span 1;
+        order: 4;
+        // grid-row: row ;
+        // background-color: blue;
+    }
+    
+    p{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    img{
+        max-width: 100%;
+        padding-top: 0.5rem;
+    }
+
+    .about-banner{
+        order: 1;
+    }
+
+    .about-text-1{
+        order: 2;
+    }
+
+    .about-image-1{
+        order: 3;
+    }
+
+  
+    .about-image-2{
+        order: 5;
+    }
+
+    .about-text-2{
+        order: 6;
+    }
+
+
+}
+
 }

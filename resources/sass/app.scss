@@ -290,7 +290,7 @@ padding: 1em;
         grid-column: span 2;
         // grid-row: row ;
     }
-    .about-middle-text {
+    .about-text-3 {
         grid-column: span 2;
         grid-row: row ;
         // background-color: blue;
@@ -312,6 +312,11 @@ padding: 1em;
         // align-items: center;
 
     }
+}
+
+.page-header{
+    text-align: center;
+    padding-bottom: 1.5rem;
 }
 
 @import 'utilities';
