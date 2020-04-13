@@ -349,6 +349,20 @@ padding: 1em;
 
 .contact form button, .contact form input, .contact form textarea{
     width: 100%;
+    padding: 1em;
+}
+
+.contact form button{
+    background: #DCDCDA;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.contact form button:hover, .contact form button:focus{
+    font-weight: bold;
+    background-color: #A0A6AB;
+    cursor: pointer;
+
 }
 
 @import 'utilities';
