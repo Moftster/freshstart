@@ -350,6 +350,7 @@ padding: 1em;
 .contact form button, .contact form input, .contact form textarea{
     width: 100%;
     padding: 1em;
+    border: 1px solid #DCDCDA;
 }
 
 .contact form button{
@@ -362,6 +363,7 @@ padding: 1em;
     font-weight: bold;
     background-color: #A0A6AB;
     cursor: pointer;
+    transition: background-color 0.2s ease-out;
 
 }
 
