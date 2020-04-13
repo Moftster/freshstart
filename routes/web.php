@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-Route::view('clients', 'clients');
+Route::view('contact', 'contact');
 
 Route::view('ourpeople', 'ourpeople');
 

@@ -57,9 +57,6 @@
                         <a class="" href="/fees">Fees</a>
                     </li>
                     <li class="item">
-                        <a class="" href="/clients">Clients</a>
-                    </li>
-                    <li class="item">
                         <a class="" href="/ourpeople">Our people</a>
                     </li>
                     <li class="item">
