@@ -547,5 +547,15 @@ a {
   .about-page .about-text-2 {
     order: 6;
   }
+
+  .contact form .full-on-mobile {
+    grid-column: 1/3;
+  }
+}
+
+@media (max-width: 385px) {
+  .hidden-micro {
+    display: none;
+  }
 }
 
