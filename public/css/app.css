@@ -96,43 +96,43 @@ a {
   width: 50%;
 }
 
-.wrapper {
+.home-wrapper {
   display: grid;
 }
 
-.wrapper .box {
+.home-wrapper .box {
   color: #333;
   border-radius: 5px;
   padding: 20px;
   padding-top: 1rem;
 }
 
-.wrapper p {
+.home-wrapper p {
   padding-top: 1rem;
   color: #333;
 }
 
-.wrapper h1 {
+.home-wrapper h1 {
   color: #333;
 }
 
-.wrapper .a {
+.home-wrapper .a {
   grid-column: span 1;
   grid-row: row;
 }
 
-.wrapper .b {
+.home-wrapper .b {
   grid-column: span 1;
   grid-row: row;
   text-align: center;
 }
 
-.wrapper .c {
+.home-wrapper .c {
   grid-column: span 2;
   grid-row: row 2;
 }
 
-.wrapper .homepage-tree {
+.home-wrapper .homepage-tree {
   width: 80%;
   align-items: center;
 }

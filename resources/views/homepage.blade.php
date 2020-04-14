@@ -11,14 +11,14 @@
             <img src="{{ asset('img/logo.jpg') }}" alt="">
           </div>
           <div class="py-2 center-items">
-              <a href="#" class="btn-primary">Contact Us</a>
-              <a href="#" class="btn-secondary">Learn More</a>
+              <a href="/contact" class="btn-primary">Contact Us</a>
+              <a href="/about" class="btn-secondary">Learn More</a>
           </div>
           </div>
 
       </div>
 
-    <div class="wrapper">
+    <div class="home-wrapper">
       <div class="box a">
         <h1>WHAT WE DO</h1>
         <p><strong>FreshStart Psychotherapy</strong> provides a unique service to clients and psychotherapists. For clients we ensure that <strong>low cost</strong> psychotherapy or counselling is provided for the time period <strong>required by the client</strong> and not the therapist. The therapist has an opportunity to gain valuable experience of working with clients who require long term or open ended psychotherapy but cannot access it because it is either not available from the NHS or other bodies or the client cannot afford it.</p>
