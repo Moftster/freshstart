@@ -46,7 +46,7 @@
                 <textarea class="form-control" id="message" rows="5"></textarea>
               </p>
               <p class="full">
-                <button>Submit</button>
+                <button class="btn-primary">Submit</button>
               </p>
             </form>
           </div>
