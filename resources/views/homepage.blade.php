@@ -7,7 +7,7 @@
 
       <div class="showcase-content">
           <div class="p-1">
-          <div class="center-items">
+          <div class="center-items home-log">
             <img src="{{ asset('img/logo.jpg') }}" alt="">
           </div>
           <div class="py-2 center-items">

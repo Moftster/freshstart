@@ -176,6 +176,15 @@
     grid-template-columns: [col] 1fr;
     // grid-template-rows: auto;
 
+    // .home-log{
+    //     max-width: 20%;
+    //     background-color: blue;
+    // }
+
+    img{
+        max-width: 20%;
+    }
+
     .a {
         grid-column: span 2;
         // grid-row: row ;
