@@ -50,13 +50,14 @@
         <nav>
 
             {{-- <h1 class="logo">FreshStart Psychotherapy</h1> --}}
- 
-            <ul class="menu">
 
+            <div class="nav-logo">
                 <a href="/"><img class="logo-image" src="{{ asset('img/logo-ochre-sm.jpg') }}" alt=""></a>
+            </div>
 
-
-                    <li class="item">
+            <div class="nav-items">
+            <ul class="menu">
+                <li class="item">
                         <a class="" href="/about">About</a>
                     </li>
                     <li class="item">
@@ -101,6 +102,7 @@
                     <li class="toggle">
                         <span class="bars"></span>
                       </li>
+                    </div>
                 </ul>
         </nav>
     </header>

@@ -31,13 +31,22 @@ a{
 
     nav {
         height: auto;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-content: space-between;
 
         img{
             height: 80px;
             margin: 1rem;
+        }
+
+        .nav-items{
+            // align-self: flex-end;
+            // align-items: flex-end;
+            // justify-items: right;
+            align-self: right;
+            justify-self: right;
         }
 
         ul{
@@ -77,16 +86,7 @@ a{
         img{
             width: 70%;
    
-            
-            
-            // text-shadow: 2px 2px;
-
         }
-
-        // a{
-        //     align-items: center;
-        //     justify-content: center;
-        // }
 
     }
 
