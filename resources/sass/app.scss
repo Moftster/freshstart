@@ -317,7 +317,7 @@ padding: 1em;
 }
 
 .wrapper > *{
-    padding: 1em;
+    padding: 2em;
 }
 
 .company-info{
@@ -327,6 +327,11 @@ padding: 1em;
 .company-info h3, .company-info ul{
     text-align: center;
     margin: 0 0 1rem 0;
+}
+
+.company-info i{
+    // text-align: center;
+    margin: 0.5rem;
 }
 
 .contact form{

@@ -9,9 +9,9 @@
           <div class="company-info">
             <h3>FreshStartPsychotherapy</h3>
             <ul>
-              <li>2 Warwick Cres, Little Venice, London W2 6NE</li>
-              <li>020 7691 7638</li>
-              <li class="hidden-micro">enquiries@freshstartpsychotherapy.co.uk</li>
+              <li><i class="fa fa-home"></i>2 Warwick Cres, Little Venice, London W2 6NE</li>
+              <li><i class="fa fa-phone"></i>020 7691 7638</li>
+              <li class="hidden-micro"><i class="fa fa-envelope"></i>enquiries@freshstartpsychotherapy.co.uk</li>
             </ul>
           </div>
 
