@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="page-header">About FreshStart</h1>
+    <h1 class="page-header">About FreshStart Psychotherapy</h1>
 
     <div class="about-page">
         <div class="about-banner">

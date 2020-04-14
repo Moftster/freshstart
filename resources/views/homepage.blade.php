@@ -31,7 +31,7 @@
         <h1>GET IN TOUCH</h1>
         <p>If you feel that you need access to counselling or psychotherapy for any of the above issues or for any other reason please complete the contact form at the link below: </p>
         <div class="btn-padding">
-          <a href="#" class="btn-primary">Contact Us</a>
+          <a href="/contact" class="btn-primary">Contact Us</a>
         </div>
         <p>Alternatively you email us at <a href="mailto:enquiries@freshstartpsychotherapy.co.uk">enquiries@freshstartpsychotherapy.co.uk</a> or call us on <strong>020 7691 7638</strong>. Please note this will direct you to an answerphone where you can leave a message with your contact telephone number and we will call back as soon as we possibly can. Please bear in mind that FreshStart is run by Volunteers and you may not receive an immediate response.</p>  
       </div>

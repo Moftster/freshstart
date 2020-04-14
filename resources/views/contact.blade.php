@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="brand page-header">Contact</h1>
+    <h1 class="brand page-header">Contact Us</h1>
 
         <div class="wrapper">
 
@@ -16,7 +16,6 @@
           </div>
 
           <div class="contact">
-            <h3>Contact Us</h3>
             <form action="">
               <p class="full-on-mobile">
                 <label for="">First Name</label>

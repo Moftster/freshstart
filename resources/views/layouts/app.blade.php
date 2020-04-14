@@ -53,7 +53,7 @@
  
             <ul class="menu">
 
-                <img href="/" class="logo-image" src="{{ asset('img/logo-ochre-sm.jpg') }}" alt="">
+                <a href="/"><img class="logo-image" src="{{ asset('img/logo-ochre-sm.jpg') }}" alt=""></a>
 
 
                     <li class="item">
