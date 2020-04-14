@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-                <div class="card-header">{{ __('Login') }}</div>
+                <div class="brand page-header">{{ __('Login') }}</div>
                 <div class="wrapper">
                     <div class="contact">
                         <form method="POST" action="{{ route('login') }}">
@@ -30,7 +30,7 @@
                                     </span>
                                 @enderror
                           </p>
-                          <p class="">
+                          <p class="full">
                             <button type="submit" class="btn btn-primary">
                                 {{ __('Login') }}
                             </button>
