@@ -146,12 +146,15 @@ a{
 
 .home-wrapper {
     display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
 
     .box {
         color: #333;
         border-radius: 5px;
-        padding: 20px;
-        padding-top: 1rem;
+        padding: 1rem;
+        // padding-top: 1rem;
         // text-align: justify;
     
     }
@@ -169,11 +172,11 @@ a{
     
     .a {
         grid-column: span 1;
-        grid-row: row ;
+        // grid-row: row ;
     }
     .b {
         grid-column: span 1 ;
-        grid-row: row ;
+        // grid-row: row ;
         // justify-items: center;
         // justify-self: center;
         text-align: center;
@@ -190,6 +193,7 @@ a{
     .homepage-tree{
         width: 80%;
         align-items: center;
+        padding: 0.8rem;
     
     }
 
