@@ -227,3 +227,16 @@
     display: none;
 }
 }
+
+@media(max-width: 900px) and (min-width: 700px) {
+nav{
+    li {
+        padding: 0.5rem !important;
+        // text-align: center;
+        // align-self: center;
+        // justify-self: center;
+        font-size: 0.8rem;
+
+    }
+}
+}

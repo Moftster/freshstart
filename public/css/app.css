@@ -613,3 +613,10 @@ a {
   }
 }
 
+@media (max-width: 900px) and (min-width: 700px) {
+  nav li {
+    padding: 0.5rem !important;
+    font-size: 0.8rem;
+  }
+}
+
