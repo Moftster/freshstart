@@ -55,8 +55,18 @@
                 <a href="/"><img class="logo-image" src="{{ asset('img/logo-ochre-sm.jpg') }}" alt=""></a>
             </div>
 
+            <div class="toggle-item">
+              <li class="toggle">
+                <i class="fa fa-bars"></i>
+                {{-- <span class="bars"></span> --}}
+              </li>
+
+            </div>
+
             <div class="nav-items">
             <ul class="menu">
+          
+
                 <li class="item">
                         <a class="" href="/about">About</a>
                     </li>
@@ -99,11 +109,9 @@
                             </div>
                         </li>
                     @endguest
-                    <li class="toggle">
-                        <span class="bars"></span>
-                      </li>
-                    </div>
                 </ul>
+            </div>
+
         </nav>
     </header>
 </div>
