@@ -41,7 +41,7 @@ a {
 }
 
 .showcase nav li {
-  padding: 15px;
+  padding: 0.8rem;
 }
 
 .showcase nav a {
@@ -51,6 +51,10 @@ a {
 
 .showcase nav a:hover {
   color: #ff8700;
+}
+
+.showcase .toggle-item {
+  display: none;
 }
 
 .showcase-content {
@@ -479,6 +483,7 @@ a {
   }
 
   .toggle-item {
+    display: block !important;
     grid-column: span 2;
     list-style-type: none;
   }
