@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-                <div class="brand page-header">{{ __('Login') }}</div>
+                <div class="card-header brand page-header">{{ __('Login') }}</div>
                 <div class="wrapper">
                     <div class="contact">
                         <form method="POST" action="{{ route('login') }}">

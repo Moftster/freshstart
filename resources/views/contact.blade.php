@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="brand page-header">Contact Us</h1>
+    <h1 class="brand page-header">CONTACT US</h1>
 
         <div class="wrapper">
 
