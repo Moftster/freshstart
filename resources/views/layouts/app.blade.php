@@ -121,7 +121,7 @@
     </header>
 </div>
 
-        <main class="py-2">
+        <main class="main-body py-2">
             @yield('content')
         </main>
         
