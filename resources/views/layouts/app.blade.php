@@ -136,7 +136,7 @@
             </div>
 
             <div class="footer-content">
-                <a href="/privacyandcookies"><img class="social-icon" src="{{ asset('img/privacy.png') }}" alt="Privacy icon"></a>
+                <a href="/gdpr"><img class="social-icon" src="{{ asset('img/privacy.png') }}" alt="Privacy icon"></a>
             </div>
 
             <div class="footer-content">
