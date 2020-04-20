@@ -66,16 +66,23 @@
             <div class="nav-items">
             <ul class="menu">
           
-
-                <li class="item">
+                    <li class="item">
                         <a class="" href="/about">About</a>
                     </li>
-                    <li class="item">
-                        <a class="" href="/fees">Fees</a>
-                    </li>
+
                     <li class="item">
                         <a class="" href="/ourpeople">Our people</a>
                     </li>
+
+                    <li class="item">
+                        <a class="" href="/fees">Fees</a>
+                    </li>
+
+                    <li class="item">
+                        <a class="" href="/events">Events</a>
+                    </li>
+
+
                     <li class="item">
                         <a class="" href="/contact">Contact</a>
                     </li>

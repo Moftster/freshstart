@@ -23,6 +23,8 @@ Route::view('ourpeople', 'ourpeople');
 
 Route::view('gdpr', 'gdpr');
 
+Route::view('events', 'events');
+
 Route::view('about', 'about');
 
 Route::view('fees', 'fees');
