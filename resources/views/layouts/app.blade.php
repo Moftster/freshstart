@@ -132,6 +132,7 @@
 </div>
 
         <main class="main-body py-2">
+            @include('partials.alerts')
             @yield('content')
         </main>
         

@@ -31,7 +31,10 @@ class ContactController extends Controller
 
         $contact->save();
 
-        return redirect('/contact');
+        return redirect()
+        ->back()
+        ->withInput()
+        ->with('success', 'You message has been succesfully submitted!');
 
     }
 }
