@@ -17,7 +17,9 @@ Route::get('/', function () {
     return view('homepage');
 });
 
+
 Route::view('contact', 'contact');
+Route::post('contactsubmission', 'ContactController@submitContactForm');
 
 Route::view('ourpeople', 'ourpeople');
 

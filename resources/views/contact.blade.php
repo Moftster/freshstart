@@ -16,14 +16,15 @@
           </div>
 
           <div class="contact">
-            <form action="">
+            <form action="contactsubmission" enctype="multipart/form-data" method="POST" name="contactForm">
+              @csrf
               <p class="full-on-mobile">
                 <label for="">First Name</label>
-                <input type="text" name="first-name">
+                <input type="text" name="first_name">
               </p class="full-on-mobile">
               <p class="full-on-mobile">
                 <label for="">Last Name</label>
-                <input type="text" name="last-name">
+                <input type="text" name="last_name">
               </p>
               <p class="full-on-mobile">
                 <label for="">Email</label>
@@ -35,43 +36,21 @@
               </p>
               <p class="full">
                 <label for="">Are you a client seeking psychotherapy/counselling or a therapist looking to work with clients?</label>
-                <select class="form-control" id="exampleFormControlSelect1">
+                <select class="form-control" id="clientortherapist" name="clientortherapist">
                   <option>Client</option>
                   <option>Therpaist</option>
                 </select>
               </p>
               <p class="full">
                 <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="5"></textarea>
+                <textarea class="form-control" id="message" name="message" rows="5"></textarea>
               </p>
               <p class="full">
-                <button class="btn-primary">Submit</button>
+                <button class="btn-primary" type="submit">Submit</button>
               </p>
             </form>
           </div>
 
-
-                {{-- <form>
-                  <div class="form-item">
-                    <label for="">Name</label>
-                    <input type="text" class="" id="">
-                  </div>
-                  <div class="form-item">
-                    <label for="">Email address</label>
-                    <input type="email" class="" id="" placeholder="name@example.com">
-                  </div>
-                  <div class="form-item">
-                    <label for="exampleFormControlSelect1">Are you a client seeking psychotherapy/counselling or a therapist looking to work with clients?</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Client</option>
-                      <option>Therpaist</option>
-                    </select>
-                  </div>
-                  <div class="form-item">
-                    <label for="exampleFormControlTextarea1">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-                </form>                 --}}
         </div>
 
 </div>
