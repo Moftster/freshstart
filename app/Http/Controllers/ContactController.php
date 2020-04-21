@@ -34,7 +34,7 @@ class ContactController extends Controller
         return redirect()
         ->back()
         ->withInput()
-        ->with('success', 'You message has been succesfully submitted!');
+        ->with('success', 'You message has been succesfully sent. We will be in touch shortly.');
 
     }
 }

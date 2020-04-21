@@ -428,6 +428,13 @@ a {
   background-color: white;
 }
 
+.success-alert {
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
+  background-color: #D4EDDA;
+}
+
 @media (max-width: 700px) {
   .showcase {
     height: auto;
