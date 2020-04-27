@@ -2,6 +2,15 @@
 
 @section('content')
 <div class="container">
+
+  @if ($errors->any())
+  <div class="error-alert">
+          @foreach ($errors->all() as $error)
+              <p>{{ $error }}</p>
+          @endforeach
+  </div>
+@endif
+
     <h1 class="brand page-header">CONTACT US</h1>
 
         <div class="wrapper">
@@ -21,10 +30,11 @@
               <p class="full-on-mobile">
                 <label for="">First Name</label>
                 <input type="text" name="first_name">
-              </p class="full-on-mobile">
+              </p>
+
               <p class="full-on-mobile">
                 <label for="">Last Name</label>
-                <input type="text" name="last_name">
+                <input type="text" name="last_name" value="">
               </p>
               <p class="full-on-mobile">
                 <label for="">Email</label>
