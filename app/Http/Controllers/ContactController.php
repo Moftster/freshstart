@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 // Import Contact model
 Use App\Contact;
 
+// Use Mail
+Use Mail;
+
 class ContactController extends Controller
 {
     public function submitContactForm(Request $req)
@@ -30,6 +33,31 @@ class ContactController extends Controller
         $contact->message = $req->message;
 
         $contact->save();
+
+            // Send email to FreshStart admin once quote form submitted
+            $emailTo = "David Moftakhar";
+            $emailAddress = "david@chillaweb.com";
+            $contactName = $req->first_name . " " . $req->last_name;
+            $contactEmail = $req->email;
+            $contactPhone = $req->phone;
+            $clientortherapist = $req->clientortherapist;
+            $contactMessage = $req->message;
+
+               $data = array(  'name'=> $contactName, 
+                               'email'=> $contactEmail, 
+                               'phone' => $contactPhone,
+                               'clientortherapist' => $clientortherapist,
+                               'contactmessage' => $contactMessage
+                           );
+               
+               // Mail to FreshStart
+               Mail::send('email/contactsubmission', $data, function($message) use ($emailTo, $emailAddress){
+                   $message->to($emailAddress)
+                   ->subject('FreshStart Contact Form Submission');
+               // echo "Email sent";
+               });
+
+
             return redirect()
             ->back()
             ->withInput()
