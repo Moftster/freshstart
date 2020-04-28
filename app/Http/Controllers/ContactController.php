@@ -36,7 +36,7 @@ class ContactController extends Controller
 
             // Send email to FreshStart admin once quote form submitted
             $emailTo = "David Moftakhar";
-            $emailAddress = "david@chillaweb.com";
+            $emailAddress = ['d_moftakhar@hotmail.com', 'david@chillaweb.com'];
             $contactName = $req->first_name . " " . $req->last_name;
             $contactEmail = $req->email;
             $contactPhone = $req->phone;

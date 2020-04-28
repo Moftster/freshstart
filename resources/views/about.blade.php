@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'About')
+
 @section('content')
 <div class="container">
     <h1 class="page-header">ABOUT FRESHSTART PSYCHOTHERAPY</h1>
