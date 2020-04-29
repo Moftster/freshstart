@@ -139,9 +139,20 @@
     grid-template-rows: auto;
 
     .about-banner {
-        grid-column: span 1;
+        grid-column: span 2;
         // grid-row: row ;
     }
+
+    .about-image-1{
+        grid-column: span 2;
+
+    }
+
+    .quote-text {
+        grid-column: span 2;
+
+    }
+
     .about-text-3 {
         grid-column: span 1;
         order: 4;
@@ -159,26 +170,26 @@
         padding-top: 0.5rem;
     }
 
-    .about-banner{
-        order: 1;
-    }
+    // .about-banner{
+    //     order: 1;
+    // }
 
-    .about-text-1{
-        order: 2;
-    }
+    // .about-text-1{
+    //     order: 2;
+    // }
 
-    .about-image-1{
-        order: 3;
-    }
+    // .about-image-1{
+    //     order: 3;
+    // }
 
   
-    .about-image-2{
-        order: 5;
-    }
+    // .about-image-2{
+    //     order: 5;
+    // }
 
-    .about-text-2{
-        order: 6;
-    }
+    // .about-text-2{
+    //     order: 6;
+    // }
 
 
 }

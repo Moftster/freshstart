@@ -585,7 +585,15 @@ a {
   }
 
   .about-page .about-banner {
-    grid-column: span 1;
+    grid-column: span 2;
+  }
+
+  .about-page .about-image-1 {
+    grid-column: span 2;
+  }
+
+  .about-page .quote-text {
+    grid-column: span 2;
   }
 
   .about-page .about-text-3 {
@@ -601,26 +609,6 @@ a {
   .about-page img {
     max-width: 100%;
     padding-top: 0.5rem;
-  }
-
-  .about-page .about-banner {
-    order: 1;
-  }
-
-  .about-page .about-text-1 {
-    order: 2;
-  }
-
-  .about-page .about-image-1 {
-    order: 3;
-  }
-
-  .about-page .about-image-2 {
-    order: 5;
-  }
-
-  .about-page .about-text-2 {
-    order: 6;
   }
 
   .contact form .full-on-mobile {
