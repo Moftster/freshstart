@@ -225,14 +225,29 @@ a {
   grid-column: span 2;
 }
 
-.about-page .about-text-3 {
+.about-page .about-text-1 {
   grid-column: span 2;
-  grid-row: row;
+}
+
+.about-page .quote-text {
+  text-align: center;
+  vertical-align: middle;
+  align-self: center;
+  justify-self: center;
+}
+
+.about-page .about-text-2 {
+  grid-column: span 2;
 }
 
 .about-page p {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.about-page li {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .about-page img {

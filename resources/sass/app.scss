@@ -304,15 +304,37 @@ padding: 1em;
         grid-column: span 2;
         // grid-row: row ;
     }
-    .about-text-3 {
+
+    .about-text-1 {
         grid-column: span 2;
-        grid-row: row ;
+
+    }
+
+    .quote-text{
+        text-align: center;
+        vertical-align: middle;
+        align-self: center;
+        justify-self: center;
+
+    }
+
+    .about-text-2 {
+        grid-column: span 2;
+        // grid-row: row ;
         // background-color: blue;
+        // place-items: center center;
+
+
     }
     
     p{
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+
+    li{
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
     img{
