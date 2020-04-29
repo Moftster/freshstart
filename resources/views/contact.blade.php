@@ -22,7 +22,8 @@
           <div class="company-info">
             <h3>FreshStartPsychotherapy</h3>
             <ul>
-              <li><i class="fa fa-home"></i>2 Warwick Crescent, Little Venice, London W2 6NE</li>
+              <li><i class="fa fa-home"></i>St Paul's Church Center, 3 Rossmore Road, London NW1 6NJ</li>
+              <li>2 Warwick Crescent, Little Venice, London W2 6NE</li>
               <li><i class="fa fa-phone"></i>020 7691 7638</li>
               <li class="hidden-micro"><i class="fa fa-envelope"></i><a href="mailto:enquiries@freshstartpsychotherapy.co.uk">enquiries@freshstartpsychotherapy.co.uk</a></li>
             </ul>
