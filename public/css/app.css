@@ -282,6 +282,10 @@ a {
   display: block;
 }
 
+.contact-text {
+  margin-bottom: 2rem;
+}
+
 .contact form p {
   margin: 0;
 }

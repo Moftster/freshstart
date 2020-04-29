@@ -15,6 +15,8 @@
 
     <h1 class="brand page-header">CONTACT US</h1>
 
+    <p class="contact-text"> If you are a client seeking access to counselling or psychotherapy or a therapist looking to work with clients, please complete the contact form below. We will be in touch as soon as possible, but please bear in mind that FreshStart is run by Volunteers and you may not receive an immediate response.</p>
+
         <div class="wrapper">
 
           <div class="company-info">
