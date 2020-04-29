@@ -42,7 +42,7 @@ The FS structure ensures that the therapist receives expert supervision so that 
     </div>
 
     <div class="about-image-2">
-        <img class="img-itself" src="{{ asset('img/field2.jpg') }}" alt="">
+        <img class="img-itself" src="{{ asset('img/people.jpg') }}" alt="">
     </div>
 
     <div class="about-text-2">
