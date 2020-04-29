@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="fees-header">FEES</h1>
+    <h1 class="fees-header">Fees</h1>
 
     <div class="fees-page">
     <div class="fees-text">
